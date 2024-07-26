@@ -129,7 +129,7 @@ function WeddingPlannerApp() {
     accessori.forEach((accessorio) => {
       attivita.push({
         giorni: parseInt(accessorio.tempoLavorazione) + 14,
-        attivita: `Ordina l'accessorio ${accessorio.nome} da JONIDA RIPANI entro il...`
+        attivita: `Ordina l'accessorio ${accessorio.nome} da JONIDA RIPANI `
       });
     });
 
